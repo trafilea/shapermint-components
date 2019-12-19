@@ -1,7 +1,7 @@
 {
-  "name": "trafilea-component-library",
+  "name": "ui-component-library",
   "version": "1.0.0",
-  "description": "Trafilea - UI Component Library",
+  "description": "UI Component Library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
