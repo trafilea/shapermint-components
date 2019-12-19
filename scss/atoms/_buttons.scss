@@ -1,0 +1,63 @@
+// Primary buttons
+//
+// The primary action is generally the action that completes a task or desired action.
+// Primary buttons use bright and use saturated colors to provide stronger visual weight that catches the users attention to avoid confusion and competing with secondary actions.
+//
+// Markup:
+// <button class="btn btn-primary">Button Primary</button>
+//
+// Styleguide 2.1.1
+.btn-primary {
+	border-radius: 8px;
+	color: $white;
+	font-family: $font-family-avenir-demi;
+	text-transform: uppercase;
+
+	&:hover {
+		color: $white;
+	}
+
+	&:focus,
+	&.focus {
+		color: $white;
+	}
+
+	&:not(:disabled):not(.disabled):active,
+  	&:not(:disabled):not(.disabled).active {
+		color: $white;
+	}
+}
+
+// Secondary buttons
+//
+// A secondary action is not as important as a primary action. You should give secondary buttons less visual weight than primary actions.
+// Less saturated colors are used on secondary buttons resulting in distinguishable buttons that don't stand out as much as primary buttons.
+//
+// Markup:
+// <button class="btn btn-secondary">Button Secondary</button>
+//
+// Styleguide 2.1.2
+.btn-secondary {}
+
+// Outline buttons
+//
+// In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the .btn-outline-* ones to remove all background images and colors on any button.
+//
+// Markup:
+// <button type="button" class="btn btn-outline-primary">Primary</button>
+// <button type="button" class="btn btn-outline-secondary">Secondary</button>
+// <button type="button" class="btn btn-outline-success">Success</button>
+// <button type="button" class="btn btn-outline-danger">Danger</button>
+// <button type="button" class="btn btn-outline-warning">Warning</button>
+// <button type="button" class="btn btn-outline-info">Info</button>
+//
+// Styleguide 2.1.3
+
+// Button Sizes
+//
+// Markup:
+// <button type="button" class="btn btn-primary btn-lg">Large button</button>
+// <button type="button" class="btn btn-primary">Normal button</button>
+// <button type="button" class="btn btn-primary btn-sm">Small button</button>
+//
+// Styleguide 2.1.4

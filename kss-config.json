@@ -1,0 +1,8 @@
+{
+	"homepage": "../static/homepage.md",
+	"source": [
+	"scss"
+	],
+	"destination":  "dist",
+	"css": ["kss-assets/styles.css"]
+}
