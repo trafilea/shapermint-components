@@ -3,6 +3,6 @@
 	"source": [
 	"scss"
 	],
-	"destination":  "dist",
+	"destination":  "docs",
 	"css": ["kss-assets/styles.css"]
 }

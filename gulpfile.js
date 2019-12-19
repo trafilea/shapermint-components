@@ -7,8 +7,8 @@ require('./tasks/styleguide');
 
 task('serve', () => {
 	connect.server({
-		root: 'dist',
-		port: '3000'
+		root: 'docs',
+		port: '8081'
 	});
 });
 

@@ -2,7 +2,7 @@ const path = require('path');
 const { task, src, dest } = require('gulp');
 const sass = require('gulp-sass');
 const rename = require('gulp-rename');
-const distribution_folder = path.join('.', 'dist', 'kss-assets');
+const distribution_folder = path.join('.', 'docs', 'kss-assets');
 
 task('sass', () => {
 	const sass_options = { outputStyle: 'expanded' };
