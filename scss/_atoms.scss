@@ -12,4 +12,16 @@
 // Good design can subconsciously communicate priority to users. Using the right combination of these components buttons will guide the user through the tasks required to achieve the main purpose or use case of a website.
 //
 // Styleguide 2.1.
-@import 'atoms/buttons'
+@import 'atoms/buttons';
+
+// Typography
+//
+// This sections refers to the text that appears within a user interface. Users rarely read every word on a page.
+// Thus, creating visual hierarchy is essential for users to understand the information. It also impacts how users scan a website.
+// To make copy scannable you should provide good contrast between the different elements.
+// This creates different focus points and guides the user through the content.
+// For example, highlighting links and bolding important information creates scannable focus-points.
+// Poor contrast results in users getting lost in the content and causes them to scan more slowly.
+//
+// Styleguide 2.2.
+@import 'atoms/typography';

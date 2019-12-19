@@ -4,13 +4,12 @@
 // Primary buttons use bright and use saturated colors to provide stronger visual weight that catches the users attention to avoid confusion and competing with secondary actions.
 //
 // Markup:
-// <button class="btn btn-primary">Button Primary</button>
+// <button class="btn btn-primary">primary button</button>
 //
 // Styleguide 2.1.1
 .btn-primary {
 	border-radius: 8px;
 	color: $white;
-	font-family: $font-family-avenir-demi;
 	text-transform: uppercase;
 
 	&:hover {
@@ -34,10 +33,12 @@
 // Less saturated colors are used on secondary buttons resulting in distinguishable buttons that don't stand out as much as primary buttons.
 //
 // Markup:
-// <button class="btn btn-secondary">Button Secondary</button>
+// <button class="btn btn-secondary">secondary button</button>
 //
 // Styleguide 2.1.2
-.btn-secondary {}
+.btn-secondary {
+	text-transform: uppercase;
+}
 
 // Outline buttons
 //

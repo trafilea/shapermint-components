@@ -74,3 +74,8 @@ $font-family-simple_line_icons: 'Simple-Line-Icons', Arial, Helvetica, sans-seri
 $font-size-base: 1rem;
 $font-size-lg: $font-size-base * 1.25;
 $font-size-sm: $font-size-base * .875;
+
+
+// The following declarations just override the default Bootstrap variables
+// but don't require to be documented in the Styeguide
+$headings-font-family: $font-family-avenir;
