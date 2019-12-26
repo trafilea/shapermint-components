@@ -1,7 +1,7 @@
 // Color palette
 //
 // Here you will find the main user interface color palette for the out of the box theme.
-// Shades of orange, blue-grey, white and grey are used for backgrounds, boders, buttons and text all along the application.
+// Shades of orange, green, white and grey are used for backgrounds, boders, buttons and text all along the application.
 //
 // Styleguide 1.1
 
@@ -10,10 +10,10 @@
 // The Primary Color is used for primary actions and highlighted information.
 //
 // Colors:
-// $primary: #f8aa90
+// $primary: #F7A08B
 //
 // Styleguide 1.1.2
-$primary: #f8aa90;
+$primary: #F7A08B;
 
 // Secondary Color
 //
@@ -32,100 +32,82 @@ $secondary: #3A3A3A;
 // <a href="https://getbootstrap.com/docs/4.4/getting-started/theming/#grays" target="_blank">Bootstrap doc reference</a>
 //
 // Colors:
-// $white: #fff
-// $gray-25: #f9f9f9
-// $gray-50: #f7f7f7
-// $gray-75: #ececec
-// $gray-100: #e5e5e5
-// $gray-200: #d6d6d6
-// $gray-300: #ccc
-// $gray-400: #bbb
-// $gray-500: #b1b1b1
-// $gray-600: #818181
-// $gray-700: #3a3a3a
-// $gray-800: #1b1919
-// $gray-900: #0a0a0a
-// $black:    #000
+// $gray-100: #F7F7F7
+// $gray-200: #E5E5E5
+// $gray-300: #BBBBBB
+// $gray-400: #818181
+// $gray-500: #3A3A3A
+// $gray-600: #1B1919
 //
 // Styleguide 1.1.4
-$white: #fff;
-$gray-25: #f9f9f9;
-$gray-50: #f7f7f7;
-$gray-75: #ececec;
-$gray-100: #e5e5e5;
-$gray-200: #d6d6d6;
-$gray-300: #ccc;
-$gray-400: #bbb;
-$gray-500: #b1b1b1;
-$gray-600: #818181;
-$gray-700: #3a3a3a;
-$gray-800: #1b1919;
-$gray-900: #0a0a0a;
-$black:    #000;
+$gray-100: #F7F7F7;
+$gray-200: #E5E5E5;
+$gray-300: #BBBBBB;
+$gray-400: #818181;
+$gray-500: #3A3A3A;
+$gray-600: #1B1919;
 
-// Theme Palette
+// Brand Theme Palette
 //
-// The Theme Palette is a scale from 1000 (dark) to 0 (light).
-// This theme defines a couple of medium scale values. The developer might find useful to add more intermetiate colors within the scale that might be referenced to this scale.
+// The following color palette defines those colors that are used across different contexts.
 //
 // Colors:
-// $theme-palette-100: #faf7f2
-// $theme-palette-300: #fff6f3
-// $theme-palette-500: #FBC9BC
-// $theme-palette-700: #f7a08a
-// $theme-palette-900: #f8aa90
+// $theme-palette-cream: #FAF7F2
+// $theme-palette-eggs: #FFE1B8
+// $theme-palette-sand: #E7C9B2
+// $theme-palette-aloe: #B1D7C3
+// $theme-palette-sky: #A1C9CC
+// $theme-palette-mint: #5EAD9B
+// $theme-palette-pink: #FBC9BC
+// $theme-palette-rose: #F5BAB0
+// $theme-palette-shaperpink: #F7A08B
+// $theme-palette-shaperblack: #3A3A3A
 //
 // Styleguide 1.1.5
-$theme-palette-100: #faf7f2;
-$theme-palette-300: #fff6f3;
-$theme-palette-500: #FBC9BC;
-$theme-palette-700: #f7a08a;
-$theme-palette-900: #f8aa90;
-
+$theme-palette-cream: #FAF7F2;
+$theme-palette-eggs: #FFE1B8;
+$theme-palette-sand: #E7C9B2;
+$theme-palette-aloe: #B1D7C3;
+$theme-palette-sky: #A1C9CC;
+$theme-palette-mint: #5EAD9B;
+$theme-palette-pink: #FBC9BC;
+$theme-palette-rose: #F5BAB0;
+$theme-palette-shaperpink: #F7A08B;
+$theme-palette-shaperblack: #3A3A3A;
 
 // Customized Bootstrap Color Palette
 //
-// <a href="https://getbootstrap.com/docs/4.4/getting-started/theming/#all-colors" target="_blank">Bootstrap doc reference</a>
+// In addition to the Brand Theme Palette, the following colors are used only in the theme context.
+// These colors are defined based on Bootstrap Theme Colors variables: <a href="https://getbootstrap.com/docs/4.4/getting-started/theming/#all-colors" target="_blank">Bootstrap doc reference</a>
 //
 // Colors:
 // $pink:    #FBC9BC
-// $red:     #8e2d2d
-// $orange:  #ef6c00
+// $red:     #8E2D2D
+// $orange:  #EF6C00
 // $yellow:  #F2D96F
-// $green:   #2d8f49
-// $cyan:    #a6ddd4
+// $green:   #5EAD9B
+// $cyan:    #A6DDD4
 //
 // Styleguide 1.1.6
 $pink:    #FBC9BC;
-$red:     #8e2d2d;
-$orange:  #ef6c00;
+$red:     #8E2D2D;
+$orange:  #EF6C00;
 $yellow:  #F2D96F;
-$green:   #2d8f49;
-$cyan:    #a6ddd4;
+$green:   #5EAD9B;
+$cyan:    #A6DDD4;
 
 // Messaging Theme Palette
 //
 // <a href="https://getbootstrap.com/docs/4.4/getting-started/theming/#theme-colors" target="_blank">Bootstrap doc reference</a>
 //
 // Colors:
-// $success: #2d8f49
-// $info: #a6ddd4
-// $warning: #F2D96F
-// $danger: #8e2d2d
+// $success: #5EAD9B
+// $info: #FBC9BC
+// $warning: #FFE1B8
+// $danger: #D3373C
 //
 // Styleguide 1.1.7
-
-
-// Extra colors
-//
-// All the following variables should be evaluated, they might be deleted.
-//
-// Colors:
-// $extra-color-100: #b1dbd4
-// $extra-color-300: #b0ded3
-// $extra-color-700: #1aada3
-//
-// Styleguide 1.1.9
-$extra-color-100: #b1dbd4;
-$extra-color-300: #b0ded3;
-$extra-color-700: #1aada3;
+$success: #5EAD9B;
+$info: #FBC9BC;
+$warning: #FFE1B8;
+$danger: #D3373C;
