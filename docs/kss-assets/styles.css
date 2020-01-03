@@ -41,7 +41,7 @@
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 10px 50px;
+  padding: 10px 45px;
   font-size: 0.875rem;
   line-height: 14px;
   border-radius: 8px;
@@ -647,7 +647,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-lg {
-  padding: 15px 50px;
+  padding: 15px 45px;
   font-size: 1rem;
   line-height: 16px;
   border-radius: 8px;
