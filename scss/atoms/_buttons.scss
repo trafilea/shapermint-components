@@ -26,6 +26,10 @@
   	&:not(:disabled):not(.disabled).active {
 		color: $white;
 	}
+
+	&.disabled, &:disabled {
+		color: $white;
+	}
 }
 
 // Secondary buttons
@@ -52,7 +56,27 @@
 //
 // Styleguide 2.1.3
 
-// Any customising is needed.
+.btn-outline-primary {
+	text-transform: uppercase;
+
+	&:hover,
+	&:not(:disabled):not(.disabled):active,
+	&:not(:disabled):not(.disabled).active {
+		color: $white;
+	}
+
+	&.disabled, &:disabled {
+		color: $primary;
+	}
+}
+
+.btn-outline-secondary {
+	text-transform: uppercase;
+}
+
+.btn-outline-info {
+	text-transform: uppercase;
+}
 
 // Button Sizes
 //
