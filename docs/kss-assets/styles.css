@@ -1,38 +1,6 @@
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro';
-  font-style: italic;
-  font-weight: normal;
-  src: local("Avenir Next"), url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-It.woff2") format("woff2"), url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-It.woff2") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro';
-  font-style: normal;
-  font-weight: bold;
-  src: url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Bold.woff2") format("woff2"), url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro Demi';
-  font-style: normal;
-  font-weight: normal;
-  src: url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Demi.woff2") format("woff2"), url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Demi.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro';
-  font-style: normal;
-  font-weight: normal;
-  src: url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Regular.woff2") format("woff2"), url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Regular.woff") format("woff");
-}
-
 .btn {
   display: inline-block;
-  font-family: "Avenir Next LT Pro Demi", Arial, Helvetica, sans-serif;
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #212529;
   text-align: center;
@@ -836,4 +804,70 @@ mark,
 
 .blockquote-footer::before {
   content: "\2014\00A0";
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 2.1875rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Noto Serif JP", Arial, Helvetica, serif;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    font-size: 2.1875rem;
+  }
+}
+
+h3 {
+  font-size: 1.5625rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  h3 {
+    font-size: 1.875rem;
+  }
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  h4 {
+    font-size: 1.25rem;
+  }
+}
+
+p {
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  p {
+    font-size: 1.125rem;
+  }
 }
