@@ -5,11 +5,86 @@
 // All HTML headings.
 //
 // Markup:
-// <h1>h1. Bootstrap heading</h1>
-// <h2>h2. Bootstrap heading</h2>
-// <h3>h3. Bootstrap heading</h3>
-// <h4>h4. Bootstrap heading</h4>
-// <h5>h5. Bootstrap heading</h5>
-// <h6>h6. Bootstrap heading</h6>
+// <h1>h1. Buying shapewear you love should never hurt</h1>
+// <h2>h2. Buying shapewear you love should never hurt</h2>
+// <h3>h3. Buying shapewear you love should never hurt</h3>
+// <h4>h4. Buying shapewear you love should never hurt</h4>
 //
 // Styleguide 2.2.1
+h1 {
+  font-size: 2rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 2.1875rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: $font-family-tertiary;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 2.1875rem;
+  }
+}
+
+h3 {
+  font-size: 1.5625rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.875rem;
+  }
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.25rem;
+  }
+}
+
+// Paragraph
+//
+//
+// Markup:
+// <p>Hello, body! Meet your new fave boyshort. Combine the functionality
+// of regular underwear with the power of lightweight shapewear and you’ve got
+//  yourself the Empetua™ Everyday Smoothing Boyshort. Now with more butt shaping! </p>
+//
+// Styleguide 2.2.2
+p {
+  font-family: $font-family-primary;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.125rem;
+  }
+}
+
+// Price labels
+//
+//
+// Markup:
+// <ins class="price">$29.99</ins>
+// <del class="price-old">$29.99</del>
+// <span class=""></span>
+//
+// Styleguide 2.2.3
+.price {
+  
+}

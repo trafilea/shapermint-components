@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap');
+
+@font-face {
+  font-display: swap;
+  font-family: 'Avenir Next LT Pro';
+  font-style: italic;
+  font-weight: normal;
+  src: local("Avenir Next"),
+    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-It.woff2")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-It.woff2")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Avenir Next LT Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Bold.woff2")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Bold.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Avenir Next LT Pro Demi';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Demi.woff2")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Demi.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Avenir Next LT Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Regular.woff2') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Regular.woff') format('woff');
+}

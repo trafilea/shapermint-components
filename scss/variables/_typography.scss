@@ -1,66 +1,20 @@
 // Font variables
 //
 // Styleguide 1.2
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro';
-  font-style: italic;
-  font-weight: normal;
-  src: local("Avenir Next"),
-    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-It.woff2")
-      format("woff2"),
-    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-It.woff2")
-      format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro';
-  font-style: normal;
-  font-weight: bold;
-  src: url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Bold.woff2")
-      format("woff2"),
-    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Bold.woff")
-      format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro Demi';
-  font-style: normal;
-  font-weight: normal;
-  src: url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Demi.woff2")
-      format("woff2"),
-    url("https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Demi.woff")
-      format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Avenir Next LT Pro';
-  font-style: normal;
-  font-weight: normal;
-  src: url('https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Regular.woff2') format('woff2'),
-       url('https://cdn.shopify.com/s/files/1/0021/4889/2732/files/AvenirNextLTPro-Regular.woff') format('woff');
-}
 
 // Font family variables
 //
-// Work in progress
+// Font families are not loaded from the Component Library since different themes probably use different fonts.
+// So, these variables are setted with a default value but they must be overridden in the Theme source code. 
 //
-// <b>$font-family-noto-serif</b>: 'Noto Serif JP', Arial, Helvetica, serif <br>
-// <b>$font-family-avenir</b>: 'Avenir Next LT Pro', Arial, Helvetica, sans-serif <br>
-// <b>$font-family-avenir-demi</b>: 'Avenir Next LT Pro Demi', Arial, Helvetica, sans-serif <br>
-// <b>$font-family-font-awesome</b>: 'FontAwesome', Arial, Helvetica, sans-serif <br>
-// <b>$font-family-simple_line_icons</b>: 'Simple-Line-Icons', Arial, Helvetica, sans-serif <br>
+// <b>$font-family-primary</b>: 'Avenir Next LT Pro', Arial, Helvetica, sans-serif <br>
+// <b>$font-family-secondary</b>: 'Avenir Next LT Pro Demi', Arial, Helvetica, sans-serif <br>
+// <b>$font-family-tertiary</b>: 'Noto Serif JP', Arial, Helvetica, serif <br>
 //
 // Styleguide 1.2.2
-$font-family-noto-serif: 'Noto Serif JP', Arial, Helvetica, serif;
-$font-family-avenir: 'Avenir Next LT Pro', Arial, Helvetica, sans-serif;
-$font-family-avenir-demi: 'Avenir Next LT Pro Demi', Arial, Helvetica, sans-serif;
-$font-family-font-awesome: 'FontAwesome', Arial, Helvetica, sans-serif;
-$font-family-simple_line_icons: 'Simple-Line-Icons', Arial, Helvetica, sans-serif;
-
+$font-family-primary: 'Avenir Next LT Pro', Arial, Helvetica, sans-serif !default;
+$font-family-secondary: 'Avenir Next LT Pro Demi', Arial, Helvetica, sans-serif !default;
+$font-family-tertiary: 'Noto Serif JP', Arial, Helvetica, serif !default;
 
 // Font size variables
 //
@@ -78,4 +32,5 @@ $font-size-sm: $font-size-base * .875;
 
 // The following declarations just override the default Bootstrap variables
 // but don't require to be documented in the Styeguide
-$headings-font-family: $font-family-avenir;
+$headings-font-family: $font-family-primary;
+$font-family-base: $font-family-primary;

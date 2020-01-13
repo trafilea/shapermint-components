@@ -4,6 +4,7 @@ const connect = require('gulp-connect')
 
 require('./tasks/sass');
 require('./tasks/styleguide');
+require('./tasks/assets');
 
 task('serve', () => {
 	connect.server({
@@ -12,7 +13,7 @@ task('serve', () => {
 	});
 });
 
-task('build', series(['sass', 'styleguide',]));
+task('build', series(['sass', 'styleguide', 'assets']));
 
 task('watch', () => {
 	watch([

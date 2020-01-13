@@ -4,5 +4,5 @@
 	"scss"
 	],
 	"destination":  "docs",
-	"css": ["kss-assets/styles.css"]
+	"css": ["kss-assets/styles.css", "kss-assets/fonts.css"]
 }
