@@ -76,15 +76,66 @@ p {
   }
 }
 
+// Links
+//
+// Markup:
+// <a href="#">About Us</a>
+//
+// Styleguide 2.2.3
+a {
+  color: $theme-palette-shaperblack;
+  font-family: $font-family-primary;
+  font-size: 0.875rem;
+  text-decoration: underline;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.125rem;
+  }
+}
+
 // Price labels
 //
 //
 // Markup:
-// <ins class="price">$29.99</ins>
-// <del class="price-old">$29.99</del>
-// <span class=""></span>
+// <ins class="price">$29.99</ins><br>
+// <del class="price--original">$39.99</del>
 //
-// Styleguide 2.2.3
+// Styleguide 2.2.4
 .price {
-  
+  color: $danger;
+  font-family: $font-family-primary;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.5625rem;
+  }
+}
+
+.price--original {
+  color: $theme-palette-shaperblack;
+  font-family: $font-family-primary;
+  font-size: 1.125rem;
+  margin: 0;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.5625rem;
+  }
+}
+
+// Product options labels
+//
+//
+// Markup:
+// <label class="product-option-label">Color:</label>
+//
+// Styleguide 2.2.5
+.product-option-label {
+  color: $gray-600;
+  font-family: $font-family-primary;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0;
 }
