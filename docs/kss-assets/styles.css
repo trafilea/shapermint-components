@@ -871,3 +871,52 @@ p {
     font-size: 1.125rem;
   }
 }
+
+a {
+  color: #3A3A3A;
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  a {
+    font-size: 1.125rem;
+  }
+}
+
+.price {
+  color: #D3373C;
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .price {
+    font-size: 1.5625rem;
+  }
+}
+
+.price--original {
+  color: #3A3A3A;
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .price--original {
+    font-size: 1.5625rem;
+  }
+}
+
+.product-option-label {
+  color: #1B1919;
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0;
+}
