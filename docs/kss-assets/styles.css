@@ -821,7 +821,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-family: "Noto Serif JP", Arial, Helvetica, serif;
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -859,6 +859,33 @@ h4 {
   }
 }
 
+.hero-banner__title {
+  font-family: "Noto Serif JP", Arial, Helvetica, serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  .hero-banner__title {
+    font-size: 4.75rem;
+  }
+}
+
+.hero-banner__subtitle {
+  font-size: 1rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  .hero-banner__subtitle {
+    font-size: 1.25rem;
+  }
+}
+
 p {
   font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
@@ -876,11 +903,33 @@ a {
   color: #3A3A3A;
   font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
+  color: #070707;
 }
 
 @media (min-width: 576px) {
   a {
+    font-size: 1.125rem;
+  }
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+ul li, ol li {
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+@media (min-width: 576px) {
+  ul li, ol li {
     font-size: 1.125rem;
   }
 }
@@ -901,7 +950,7 @@ a {
 }
 
 .price--original {
-  color: #3A3A3A;
+  color: #BBBBBB;
   font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
   margin: 0;
@@ -919,4 +968,14 @@ a {
   font-size: 0.875rem;
   font-weight: bold;
   margin: 0;
+}
+
+.discount-tag {
+  color: #fff;
+  font-family: "Avenir Next LT Pro Demi", Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1;
+  background-color: #D3373C;
+  padding: 0.5rem;
+  border-radius: 6px;
 }
