@@ -2,8 +2,6 @@
 
 // Headings
 //
-// All HTML headings.
-//
 // Markup:
 // <h1>h1. Buying shapewear you love should never hurt</h1>
 // <h2>h2. Buying shapewear you love should never hurt</h2>
@@ -24,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-family: $font-family-tertiary;
+  font-family: $font-family-primary;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -56,15 +54,46 @@ h4 {
   }
 }
 
-// Paragraph
-//
+// Hero Banner Copy
 //
 // Markup:
-// <p>Hello, body! Meet your new fave boyshort. Combine the functionality
-// of regular underwear with the power of lightweight shapewear and you’ve got
-//  yourself the Empetua™ Everyday Smoothing Boyshort. Now with more butt shaping! </p>
+// <h1 class="hero-banner__title">Meet Venus de Milo’s Fave Shapewear</h1>
+// <h2 class="hero-banner__subtitle">She’s been wearing them since she birthed Cupid - arrows and all!</h2>
 //
 // Styleguide 2.2.2
+.hero-banner {
+  &__title {
+    font-family: $font-family-tertiary;
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 4.75rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+// Paragraph
+//
+// Markup:
+// <p>Hello, <b>body</b>! Meet your new fave boyshort. Combine the functionality
+// of regular underwear with the power of lightweight shapewear and you’ve got
+//  yourself the Empetua™ Everyday Smoothing Boyshort. <i>Now with more butt shaping!</i></p>
+//
+// Styleguide 2.2.3
 p {
   font-family: $font-family-primary;
   font-size: 0.875rem;
@@ -81,26 +110,60 @@ p {
 // Markup:
 // <a href="#">About Us</a>
 //
-// Styleguide 2.2.3
+// Styleguide 2.2.4
 a {
   color: $theme-palette-shaperblack;
   font-family: $font-family-primary;
   font-size: 0.875rem;
-  text-decoration: underline;
+  text-decoration: none;
+
+  &:hover {
+      text-decoration: underline;
+      color: darken($theme-palette-shaperblack, 20)
+  }
 
   @include media-breakpoint-up(sm) {
     font-size: 1.125rem;
   }
 }
 
-// Price labels
-//
+// Lists
 //
 // Markup:
-// <ins class="price">$29.99</ins><br>
+// <ul>
+//   <li>Item 1</li>
+//   <li>Item 2</li>
+//   <li>Item 3</li>
+// </ul>
+// <ol>
+//   <li>Item 1</li>
+//   <li>Item 2</li>
+//   <li>Item 3</li>
+// </ol>
+//
+// Styleguide 2.2.5
+ul, ol {
+  margin-bottom: 1rem;
+
+  li {
+    font-family: $font-family-primary;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 1.125rem;
+    }
+  }
+}
+
+// Price labels
+//
+// Markup:
+// <ins class="price">$29.99</ins>
 // <del class="price--original">$39.99</del>
 //
-// Styleguide 2.2.4
+// Styleguide 2.2.6
 .price {
   color: $danger;
   font-family: $font-family-primary;
@@ -115,7 +178,7 @@ a {
 }
 
 .price--original {
-  color: $theme-palette-shaperblack;
+  color: $gray-300;
   font-family: $font-family-primary;
   font-size: 1.125rem;
   margin: 0;
@@ -125,17 +188,33 @@ a {
   }
 }
 
-// Product options labels
-//
+// Product options label
 //
 // Markup:
-// <label class="product-option-label">Color:</label>
+// <label class="product-option-label">Color:</label><br>
+// <label class="product-option-label">Size:</label>
 //
-// Styleguide 2.2.5
+// Styleguide 2.2.7
 .product-option-label {
   color: $gray-600;
   font-family: $font-family-primary;
   font-size: 0.875rem;
   font-weight: bold;
   margin: 0;
+}
+
+// Discount tag
+//
+// Markup:
+// <span class="discount-tag"><span>40%</span> OFF</span>
+//
+// Styleguide 2.2.8
+.discount-tag {
+  color: $white;
+  font-family: $font-family-secondary;
+  font-size: 0.75rem;
+  line-height: 1;
+  background-color: $danger;
+  padding: 0.5rem;
+  border-radius: 6px;
 }

@@ -1,0 +1,11 @@
+#kss-node .kss-title__permalink {
+  font-size: 35px;
+}
+
+.kss-header {
+  display: none;
+}
+
+.kss-nav__menu-item {
+  margin-bottom: 0.75rem;
+}
