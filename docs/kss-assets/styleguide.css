@@ -9,3 +9,7 @@
 .kss-nav__menu-item {
   margin-bottom: 0.75rem;
 }
+
+#kss-node .kss-sidebar {
+  padding: 0 20px;
+}
