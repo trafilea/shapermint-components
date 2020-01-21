@@ -10,7 +10,7 @@
 //
 // Styleguide 2.2.1
 h1 {
-  font-size: 2rem;
+  font-size: 1.875rem;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -21,25 +21,25 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5625rem;
   font-family: $font-family-primary;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 1rem;
 
   @include media-breakpoint-up(sm) {
-    font-size: 2.1875rem;
+    font-size: 1.875rem;
   }
 }
 
 h3 {
-  font-size: 1.5625rem;
+  font-size: 1.25rem;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 1rem;
 
   @include media-breakpoint-up(sm) {
-    font-size: 1.875rem;
+    font-size: 1.5625rem;
   }
 }
 
@@ -199,7 +199,7 @@ ul, ol {
   color: $gray-600;
   font-family: $font-family-primary;
   font-size: 0.875rem;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -215,6 +215,10 @@ ul, ol {
   font-size: 0.75rem;
   line-height: 1;
   background-color: $danger;
-  padding: 0.5rem;
+  padding: 0.3125rem 0.375rem;
   border-radius: 6px;
+
+  @include media-breakpoint-up(sm) {
+    padding: 0.5rem;
+  }
 }
