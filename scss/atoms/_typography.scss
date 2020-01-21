@@ -9,7 +9,7 @@
 // <h4>h4. Buying shapewear you love should never hurt</h4>
 //
 // Styleguide 2.2.1
-h1 {
+h1, .h1 {
   font-size: 1.875rem;
   line-height: 1;
   margin-top: 0;
@@ -20,7 +20,7 @@ h1 {
   }
 }
 
-h2 {
+h2, .h2 {
   font-size: 1.5625rem;
   font-family: $font-family-primary;
   line-height: 1;
@@ -32,7 +32,7 @@ h2 {
   }
 }
 
-h3 {
+h3, .h3 {
   font-size: 1.25rem;
   line-height: 1;
   margin-top: 0;
@@ -43,7 +43,7 @@ h3 {
   }
 }
 
-h4 {
+h4, .h4 {
   font-size: 1rem;
   line-height: 1;
   margin-top: 0;
@@ -186,21 +186,6 @@ ul, ol {
   @include media-breakpoint-up(sm) {
     font-size: 1.5625rem;
   }
-}
-
-// Product options label
-//
-// Markup:
-// <label class="product-option-label">Color:</label><br>
-// <label class="product-option-label">Size:</label>
-//
-// Styleguide 2.2.7
-.product-option-label {
-  color: $gray-600;
-  font-family: $font-family-primary;
-  font-size: 0.875rem;
-  font-weight: 600;
-  margin: 0;
 }
 
 // Discount tag

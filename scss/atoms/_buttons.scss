@@ -83,3 +83,25 @@
 // <button type="button" class="btn btn-primary btn-sm">Small button</button>
 //
 // Styleguide 2.1.4
+
+// Button Size styles are inherited directly from Bootstrap since related variables already were changed.
+
+// Header list buttons
+//
+// Markup:
+// <div>
+//   <button type="button" class="btn btn-header-list">Sort by</button>
+//   <button type="button" class="btn btn-header-list">Filters</button>
+// </div>
+//
+// Styleguide 2.1.5
+.btn-header-list {
+	font-size: 0.875rem;
+	font-family: $font-family-secondary;
+	text-transform: uppercase;
+	text-align: left;
+	background-color: $gray-100;
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 15px;
+}
