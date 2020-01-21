@@ -688,6 +688,17 @@ input[type="button"].btn-block {
   text-transform: uppercase;
 }
 
+.btn-header-list {
+  font-size: 0.875rem;
+  font-family: "Avenir Next LT Pro Demi", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #F7F7F7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -806,7 +817,7 @@ mark,
   content: "\2014\00A0";
 }
 
-h1 {
+h1, .h1 {
   font-size: 1.875rem;
   line-height: 1;
   margin-top: 0;
@@ -814,12 +825,12 @@ h1 {
 }
 
 @media (min-width: 576px) {
-  h1 {
+  h1, .h1 {
     font-size: 2.1875rem;
   }
 }
 
-h2 {
+h2, .h2 {
   font-size: 1.5625rem;
   font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -828,12 +839,12 @@ h2 {
 }
 
 @media (min-width: 576px) {
-  h2 {
+  h2, .h2 {
     font-size: 1.875rem;
   }
 }
 
-h3 {
+h3, .h3 {
   font-size: 1.25rem;
   line-height: 1;
   margin-top: 0;
@@ -841,12 +852,12 @@ h3 {
 }
 
 @media (min-width: 576px) {
-  h3 {
+  h3, .h3 {
     font-size: 1.5625rem;
   }
 }
 
-h4 {
+h4, .h4 {
   font-size: 1rem;
   line-height: 1;
   margin-top: 0;
@@ -854,7 +865,7 @@ h4 {
 }
 
 @media (min-width: 576px) {
-  h4 {
+  h4, .h4 {
     font-size: 1.25rem;
   }
 }
@@ -962,14 +973,6 @@ ul li, ol li {
   }
 }
 
-.product-option-label {
-  color: #1B1919;
-  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
-  font-size: 0.875rem;
-  font-weight: 600;
-  margin: 0;
-}
-
 .discount-tag {
   color: #fff;
   font-family: "Avenir Next LT Pro Demi", Arial, Helvetica, sans-serif;
@@ -984,4 +987,26 @@ ul li, ol li {
   .discount-tag {
     padding: 0.5rem;
   }
+}
+
+label, .label {
+  color: #1B1919;
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.tag-selector {
+  font-family: "Avenir Next LT Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  padding: 7px 20px;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.tag-selector.active {
+  font-family: "Avenir Next LT Pro Demi", Arial, Helvetica, sans-serif;
+  border: 1.5px solid #F7A08B;
 }

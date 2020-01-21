@@ -1,0 +1,35 @@
+// Labels
+//
+// Markup:
+// <label>Color:</label><br>
+// <label>Size:</label>
+//
+// Styleguide 2.3.1
+label, .label {
+  color: $gray-600;
+  font-family: $font-family-primary;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+// Tag Selector
+//
+// Markup:
+// <span class="tag-selector">All</span><span class="tag-selector active">Panties</span><span class="tag-selector">Shorts</span>
+//
+// Styleguide 2.3.2
+.tag-selector {
+  font-family: $font-family-primary;
+  font-size: 0.875rem;
+  padding: 7px 20px;
+  border: 1px solid $gray-200;
+  border-radius: 8px;
+  margin-right: 8px;
+
+  &.active {
+    font-family: $font-family-secondary;
+    border: 1.5px solid $theme-palette-shaperpink;
+  }
+}
