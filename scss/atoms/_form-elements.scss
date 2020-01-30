@@ -13,7 +13,6 @@ label, .label {
   margin: 0;
 }
 
-
 // Tag Selector
 //
 // Markup:
@@ -27,6 +26,7 @@ label, .label {
   border: 1px solid $gray-200;
   border-radius: 8px;
   margin-right: 8px;
+  cursor: pointer;
 
   &.active {
     font-family: $font-family-secondary;
