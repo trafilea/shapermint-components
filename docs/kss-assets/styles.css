@@ -1004,6 +1004,7 @@ label, .label {
   border: 1px solid #E5E5E5;
   border-radius: 8px;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .tag-selector.active {
