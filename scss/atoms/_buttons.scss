@@ -105,3 +105,11 @@
 	border-radius: 5px;
 	margin-right: 15px;
 }
+
+
+// Generic fixes
+.btn {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
