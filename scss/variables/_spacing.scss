@@ -1,10 +1,45 @@
 // Spacing variables
 //
-// Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes.
-// Includes support for individual properties, all properties, and vertical and horizontal properties.
-// Classes are built from a default Sass map ranging from .25rem to 3rem.
+// Use the spacing scale when building individual components. It includes small increments needed to create appropriate spatial relationships for detail-level designs.
+// Spacing levels are built from a default Sass map ranging from .25rem to 3rem.
 //
-// <b>$spacer</b>: 1rem
+// <b>$spacing-01</b>: 0.125rem;<br>
+// <b>$spacing-02</b>: 0.25rem;<br>
+// <b>$spacing-03</b>: 0.5rem;<br>
+// <b>$spacing-04</b>: 0.75rem;<br>
+// <b>$spacing-05</b>: 1rem;<br>
+// <b>$spacing-06</b>: 1.5rem;<br>
+// <b>$spacing-07</b>: 2rem;<br>
+// <b>$spacing-08</b>: 2.5rem;<br>
+// <b>$spacing-08</b>: 3rem;<br>
 //
 // Styleguide 1.3
+
 $spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .125),
+    2: ($spacer * .25),
+    3: ($spacer * .5),
+    4: ($spacer * .75),
+    5: $spacer,
+    6: ($spacer * 1.5),
+    7: ($spacer * 2),
+    8: ($spacer * 2.5),
+    9: ($spacer * 3),
+  ),
+  $spacers
+);
+
+// Bootstrap Spacing system is customized but we define our own spacing level system
+$spacing-01: map-get($spacers, "1");
+$spacing-02: map-get($spacers, "2");
+$spacing-03: map-get($spacers, "3");
+$spacing-04: map-get($spacers, "4");
+$spacing-05: map-get($spacers, "5");
+$spacing-06: map-get($spacers, "6");
+$spacing-07: map-get($spacers, "7");
+$spacing-08: map-get($spacers, "8");
+$spacing-09: map-get($spacers, "9");
