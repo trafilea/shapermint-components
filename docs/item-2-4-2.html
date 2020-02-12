@@ -44,23 +44,23 @@
 <main class="kss-main" aria-label="Content">
   <article>
 
-    <div id="kssref-2-2" class="kss-section kss-section--depth-2 is-fullscreen">
+    <div id="kssref-2-4-2" class="kss-section kss-section--depth-3 is-fullscreen">
 
       <div class="kss-style">
-        <h2 class="kss-title kss-title--level-2">
-          <a class="kss-title__permalink" href="#kssref-2-2">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-2-4-2">
             <span class="kss-title__ref">
-              2.2
+              2.4.2
               <span class="kss-title__permalink-hash">
                   #permalink
               </span>
             </span>
-            Icons
+            Tag Selector
           </a>
-        </h2>
+        </h3>
 
           <p class="kss-toolbar">
-            <a href="#kssref-2-2" data-kss-guides="true">
+            <a href="#kssref-2-4-2" data-kss-guides="true">
               <span class="kss-toolbar__tooltip">Toggle example guides</span>
               <svg focusable="false" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 64 64">
                 <rect class="kss-toolbar__icon-fill" x="5" y="35" width="5" height="9"/>
@@ -81,7 +81,7 @@
                 <rect class="kss-toolbar__icon-fill" x="20" y="54" width="9" height="5"/>
               </svg>
             </a>
-            <a href="#kssref-2-2" data-kss-markup="true">
+            <a href="#kssref-2-4-2" data-kss-markup="true">
               <span class="kss-toolbar__tooltip">Toggle HTML markup</span>
               <svg focusable="false" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 64 64">
                 <path class="kss-toolbar__icon-fill" d="M37.555,46.239l6.103,6.103l20.342,-20.342l-20.342,-20.342l-6.103,6.103l14.24,14.239l-14.24,14.239Z"/>
@@ -90,11 +90,6 @@
             </a>
           </p>
 
-          <div class="kss-description">
-            <p>Font Awesome is the main mechanism to add icons to our Shopify theme, however, sometimes SVG are used for specific contents.<br>
-Check the following document for implementation details: <a href="https://docs.google.com/document/d/1rrtYKijP2u_HxQ9dbIvYS0zHrRNe58TtKx7CWgHN2r0/edit?usp=sharing" target="_blank">Icons Guidleines</a></p>
-
-          </div>
 
 
       </div>
@@ -106,12 +101,7 @@ Check the following document for implementation details: <a href="https://docs.g
 
 
           <div class="kss-modifier__example">
-            <i class="fal fa-chevron-left"></i>
-<i class="fal fa-chevron-right"></i>
-<i class="fal fa-search"></i>
-<i class="fab fa-instagram"></i>
-<i class="fab fa-facebook-f"></i>
-<i class="fab fa-youtube"></i>
+            <span class="tag-selector">All</span><span class="tag-selector active">Panties</span><span class="tag-selector">Shorts</span>
             <div class="kss-modifier__example-footer"></div>
           </div>
 
@@ -121,16 +111,11 @@ Check the following document for implementation details: <a href="https://docs.g
             <summary>
                 Markup
             </summary>
-            <pre class="hljs"><code class="language-handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fal fa-chevron-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fal fa-chevron-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fal fa-search"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fab fa-instagram"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fab fa-facebook-f"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fab fa-youtube"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span></code></pre>
+            <pre class="hljs"><code class="language-handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tag-selector"</span>&gt;</span>All<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tag-selector active"</span>&gt;</span>Panties<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tag-selector"</span>&gt;</span>Shorts<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span></code></pre>
           </details>
 
         <div class="kss-source kss-style">
-          Source: <code>_atoms.scss</code>, line 17
+          Source: <code>atoms/_form-elements.scss</code>, line 16
         </div>
 
     </div>

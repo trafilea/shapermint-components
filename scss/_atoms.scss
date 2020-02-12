@@ -14,6 +14,22 @@
 // Styleguide 2.1.
 @import 'atoms/buttons';
 
+// Icons
+//
+// Font Awesome is the main mechanism to add icons to our Shopify theme, however, sometimes SVG are used for specific contents.<br>
+// Check the following document for implementation details: <a href="https://docs.google.com/document/d/1rrtYKijP2u_HxQ9dbIvYS0zHrRNe58TtKx7CWgHN2r0/edit?usp=sharing" target="_blank">Icons Guidleines</a>
+//
+// Markup:
+// <i class="fal fa-chevron-left"></i>
+// <i class="fal fa-chevron-right"></i>
+// <i class="fal fa-search"></i>
+// <i class="fab fa-instagram"></i>
+// <i class="fab fa-facebook-f"></i>
+// <i class="fab fa-youtube"></i>
+//
+// Styleguide 2.2
+@import 'atoms/icons';
+
 // Typography
 //
 // This sections refers to the text that appears within a user interface. Users rarely read every word on a page.
@@ -23,7 +39,7 @@
 // For example, highlighting links and bolding important information creates scannable focus-points.
 // Poor contrast results in users getting lost in the content and causes them to scan more slowly.
 //
-// Styleguide 2.2.
+// Styleguide 2.3.
 @import 'atoms/typography';
 
 // Form Elements
@@ -31,5 +47,5 @@
 // Web forms establish or enhance a relationship between the user and the organization.
 // They establish a dialogue and, therefore, represent a two way communication between two parties. Form elements enable this communication.
 //
-// Styleguide 2.3.
+// Styleguide 2.4.
 @import 'atoms/form-elements';
