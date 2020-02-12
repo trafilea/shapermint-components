@@ -1,14 +1,7 @@
-// Icons
-//
-// Font Awesome is the main mechanism to add icons to our Shopify theme, however, sometimes SVG are used for specific contents.<br>
-// Check the following document for implementation details: <a href="https://docs.google.com/document/d/1rrtYKijP2u_HxQ9dbIvYS0zHrRNe58TtKx7CWgHN2r0/edit?usp=sharing" target="_blank">Icons Guidleines</a>
-//
-// Markup:
-// <i class="fal fa-chevron-left"></i>
-// <i class="fal fa-chevron-right"></i>
-// <i class="fal fa-search"></i>
-// <i class="fab fa-instagram"></i>
-// <i class="fab fa-facebook-f"></i>
-// <i class="fab fa-youtube"></i>
-//
-// Styleguide 1.4
+$fa-font-path: '../kss-assets' !default;
+@import "node_modules/@fortawesome/fontawesome-pro/scss/variables";
+@import 'node_modules/@fortawesome/fontawesome-pro/scss/mixins';
+@import 'node_modules/@fortawesome/fontawesome-pro/scss/core';
+@import "node_modules/@fortawesome/fontawesome-pro/scss/icons";
+@import "node_modules/@fortawesome/fontawesome-pro/scss/light";
+@import "node_modules/@fortawesome/fontawesome-pro/scss/brands";
