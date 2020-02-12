@@ -1,4 +1,7 @@
 $fa-font-path: '../kss-assets' !default;
+$font_font-awesome: 'Font Awesome 5 Pro', sans-serif !default;
+$font_font-awesome-brands: 'Font Awesome 5 Brands', sans-serif !default;
+
 @import "node_modules/@fortawesome/fontawesome-pro/scss/variables";
 @import 'node_modules/@fortawesome/fontawesome-pro/scss/mixins';
 @import 'node_modules/@fortawesome/fontawesome-pro/scss/core';
