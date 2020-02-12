@@ -13,3 +13,8 @@
 #kss-node .kss-sidebar {
   padding: 0 20px;
 }
+
+.fa, .fal, .fab {
+  font-size: 30px;
+  margin-right: 10px;
+}
