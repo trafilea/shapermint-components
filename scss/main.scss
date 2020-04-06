@@ -1,6 +1,9 @@
 // Theme variables and Bootstrap overrides
 @import 'variables';
 
+@import 'helpers/mixins';
+@import 'helpers/animations';
+
 // Theme components
 @import 'atoms';
 @import 'molecules';
