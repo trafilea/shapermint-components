@@ -44,23 +44,23 @@
 <main class="kss-main" aria-label="Content">
   <article>
 
-    <div id="kssref-2-1-4" class="kss-section kss-section--depth-3 is-fullscreen">
+    <div id="kssref-2-1-6" class="kss-section kss-section--depth-3 is-fullscreen">
 
       <div class="kss-style">
         <h3 class="kss-title kss-title--level-3">
-          <a class="kss-title__permalink" href="#kssref-2-1-4">
+          <a class="kss-title__permalink" href="#kssref-2-1-6">
             <span class="kss-title__ref">
-              2.1.4
+              2.1.6
               <span class="kss-title__permalink-hash">
                   #permalink
               </span>
             </span>
-            Loading button
+            Header list buttons
           </a>
         </h3>
 
           <p class="kss-toolbar">
-            <a href="#kssref-2-1-4" data-kss-guides="true">
+            <a href="#kssref-2-1-6" data-kss-guides="true">
               <span class="kss-toolbar__tooltip">Toggle example guides</span>
               <svg focusable="false" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 64 64">
                 <rect class="kss-toolbar__icon-fill" x="5" y="35" width="5" height="9"/>
@@ -81,7 +81,7 @@
                 <rect class="kss-toolbar__icon-fill" x="20" y="54" width="9" height="5"/>
               </svg>
             </a>
-            <a href="#kssref-2-1-4" data-kss-markup="true">
+            <a href="#kssref-2-1-6" data-kss-markup="true">
               <span class="kss-toolbar__tooltip">Toggle HTML markup</span>
               <svg focusable="false" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 64 64">
                 <path class="kss-toolbar__icon-fill" d="M37.555,46.239l6.103,6.103l20.342,-20.342l-20.342,-20.342l-6.103,6.103l14.24,14.239l-14.24,14.239Z"/>
@@ -101,8 +101,10 @@
 
 
           <div class="kss-modifier__example">
-            <button type="button" class="btn btn-primary btn-loading">Primary</button>
-<button type="button" class="btn btn-secondary btn-loading">Secondary</button>
+            <div>
+  <button type="button" class="btn btn-header-list">Sort by</button>
+  <button type="button" class="btn btn-header-list">Filters</button>
+</div>
             <div class="kss-modifier__example-footer"></div>
           </div>
 
@@ -112,12 +114,14 @@
             <summary>
                 Markup
             </summary>
-            <pre class="hljs"><code class="language-handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary btn-loading"</span>&gt;</span>Primary<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-secondary btn-loading"</span>&gt;</span>Secondary<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span></code></pre>
+            <pre class="hljs"><code class="language-handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-header-list"</span>&gt;</span>Sort by<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-header-list"</span>&gt;</span>Filters<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span></code></pre>
           </details>
 
         <div class="kss-source kss-style">
-          Source: <code>atoms/_buttons.scss</code>, line 78
+          Source: <code>atoms/_buttons.scss</code>, line 118
         </div>
 
     </div>
