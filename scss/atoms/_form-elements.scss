@@ -33,3 +33,27 @@ label, .label {
     border: 1.5px solid $theme-palette-shaperpink;
   }
 }
+
+
+// Free Gift label
+//
+// Markup:
+// <span class="free-gift-label">Free gift</span>
+//
+// Styleguide 2.4.3
+.free-gift-label {
+  color: $white; 
+  font-family: $font-family-secondary;
+  font-size: 12px;
+  text-transform: capitalize;
+  background-color: $theme-palette-mint;
+  padding: 4px 6px;
+  border-radius: 4px;
+  display: inline-block;
+
+  &:before {
+    font-family: $font_font-awesome;
+    content: fa-content($fa-var-gift);
+    margin-right: 5px;
+  }
+}

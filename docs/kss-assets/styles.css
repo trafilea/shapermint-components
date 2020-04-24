@@ -10160,3 +10160,20 @@ label, .label {
   font-family: "Avenir Next LT Pro Demi", Arial, Helvetica, sans-serif;
   border: 1.5px solid #F7A08B;
 }
+
+.free-gift-label {
+  color: #FFFFFF;
+  font-family: "Avenir Next LT Pro Demi", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-transform: capitalize;
+  background-color: #5EAD9B;
+  padding: 4px 6px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.free-gift-label:before {
+  font-family: "Font Awesome 5 Pro", sans-serif;
+  content: "\f06b";
+  margin-right: 5px;
+}
