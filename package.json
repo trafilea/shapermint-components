@@ -8,9 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "npx rimraf -- node_modules package-lock.json && npm i"
   },
-  "dependencies": {
-    "bootstrap": "^4.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@fortawesome/fontawesome-pro": "^5.12.1",
     "gulp": "^4.0.2",
