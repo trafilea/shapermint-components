@@ -1,6 +1,7 @@
 /*================ Mixins ================*/
 
 @import 'mixins/buttons';
+@import 'mixins/hover';
 @mixin loader-component {
   animation: lds-dual-ring .5s linear infinite;
   border: 1px solid $white;
