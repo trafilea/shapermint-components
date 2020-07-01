@@ -25,7 +25,7 @@
   },
   "author": "Trafilea",
   "license": "Apache-2.0",
-  "repository": "https://github.com/trafilea/ui-component-library",
+  "repository": "https://github.com/trafilea/shapermint-components",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
