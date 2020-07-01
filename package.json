@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "npx rimraf -- node_modules package-lock.json && npm i",
-    "commit": "git-cz"
+    "cm": "git-cz"
   },
   "dependencies": {
     "bootstrap": "^4.4.1"
@@ -19,6 +19,7 @@
     "gulp-connect": "^5.7.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
+    "husky": "^4.2.5",
     "kss": "^3.0.0-beta.25"
   },
   "author": "Trafilea",
@@ -27,6 +28,11 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   }
 }
