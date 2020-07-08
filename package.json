@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://help.trafilea.com",
     "email": "support@trafilea.com"
-  }
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
