@@ -31,3 +31,12 @@ $font-size-sm: $font-size-base * .875;
 // but don't require to be documented in the Styeguide
 $headings-font-family: $font-family-primary;
 $font-family-base: $font-family-primary;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+$line-height-base:            1.5 !default;
