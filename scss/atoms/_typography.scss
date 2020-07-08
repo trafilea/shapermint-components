@@ -127,6 +127,29 @@ a {
   }
 }
 
+
+// Underline Link
+//
+// Markup:
+// <a class="link--in-text" href="#">Underline Link</a>
+//
+// Styleguide 2.3.5
+.link--in-text {
+  color: $theme-palette-shaperblack;
+  font-family: $font-family-primary;
+  font-size: 0.875rem;
+  text-decoration: underline;
+
+  &:hover {
+      text-decoration: underline;
+      color: darken($theme-palette-shaperblack, 20)
+  }
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.125rem;
+  }
+}
+
 // Lists
 //
 // Markup:
@@ -141,7 +164,7 @@ a {
 //   <li>Item 3</li>
 // </ol>
 //
-// Styleguide 2.3.5
+// Styleguide 2.3.6
 ul, ol {
   margin-bottom: 1rem;
 
@@ -163,7 +186,7 @@ ul, ol {
 // <ins class="price">$29.99</ins>
 // <del class="price--original">$39.99</del>
 //
-// Styleguide 2.3.6
+// Styleguide 2.3.7
 .price {
   color: $danger;
   font-family: $font-family-primary;
