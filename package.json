@@ -1,21 +1,19 @@
 {
   "name": "@trafilea/shapermint-components",
   "description": "Shapermint Design System",
-  "version": "1.0.7",
+  "version": "1.1.1",
   "main": "index.js",
   "scripts": {
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cm": "git-cz",
     "checkcommit": "node ./scripts/commit-lint.js",
     "clean": "npx rimraf -- node_modules package-lock.json && npm i"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "@fortawesome/fontawesome-pro": "^5.13.0"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-pro": "^5.12.1",
-    "commitizen": "^4.1.2",
-    "cz-customizable": "^6.2.0",
     "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
     "gulp-rename": "^2.0.0",
@@ -23,9 +21,25 @@
     "husky": "^4.2.5",
     "kss": "^3.0.0-beta.25"
   },
+  "peerDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.13.0"
+  },
   "author": "Trafilea",
   "license": "Apache-2.0",
   "repository": "https://github.com/trafilea/shapermint-components",
+  "homepage": "https://trafilea.github.io/shapermint-components",
+  "access": "public",
+  "keywords": [
+    "trafilea",
+    "shapermint",
+    "design-system",
+    "web-components",
+    "ui-library"
+  ],
+  "bugs": {
+    "url": "https://help.trafilea.com",
+    "email": "support@trafilea.com"
+  }
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
