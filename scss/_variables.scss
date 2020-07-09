@@ -12,7 +12,8 @@
 @import 'variables/components';
 @import 'variables/buttons';
 
-// Bootstrap dependencies
-@import './node_modules/bootstrap/scss/functions';
-@import './node_modules/bootstrap/scss/variables';
-@import './node_modules/bootstrap/scss/mixins';
+$enable-rounded:                              true !default;
+$enable-transitions:                          true !default;
+$enable-prefers-reduced-motion-media-query:   true !default;
+$enable-shadows:                              false !default;
+$enable-gradients:                            false !default;
