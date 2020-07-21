@@ -11,9 +11,6 @@
     "clean": "npx rimraf -- node_modules package-lock.json && npm i",
     "semantic-release": "semantic-release"
   },
-  "dependencies": {
-    "@fortawesome/fontawesome-pro": "^5.13.0"
-  },
   "devDependencies": {
     "@semantic-release/github": "^7.0.7",
     "@semantic-release/npm": "^7.0.5",
