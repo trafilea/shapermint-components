@@ -28,7 +28,7 @@
     "@fortawesome/fontawesome-pro": "^5.13.0"
   },
   "author": "Trafilea",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "https://github.com/trafilea/shapermint-components",
   "homepage": "https://trafilea.github.io/shapermint-components",
   "access": "public",
