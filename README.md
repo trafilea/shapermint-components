@@ -18,6 +18,11 @@
 
 This is the Shapermint component library | https://trafilea.github.io/shapermint-components
 
+## Table of content
+
+- [Installation](#installation)
+- [Usage](#usage)
+
 ### Installation
 
 Use npm to install shapermint components
