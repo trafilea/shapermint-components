@@ -8,6 +8,7 @@
 
 [![License](https://img.shields.io/npm/l/@trafilea/shapermint-components.svg?style=flat-square)](/LICENSE)
 [![NPM Version](https://badge.fury.io/js/%40trafilea%2Fshapermint-components.svg)](https://www.npmjs.com/@trafilea/shapermint-components)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen)](https://trafilea.github.io/shapermint-components)
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/trafilea/shapermint-components/releases)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
