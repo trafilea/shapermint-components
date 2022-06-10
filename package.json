@@ -22,7 +22,7 @@
     "gulp-sass": "^4.0.2",
     "husky": "^4.2.5",
     "kss": "^3.0.0-beta.25",
-    "semantic-release": "^17.1.1"
+    "semantic-release": "^19.0.3"
   },
   "peerDependencies": {
     "@fortawesome/fontawesome-pro": "^5.13.0"
